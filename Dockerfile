@@ -1,6 +1,6 @@
-FROM python:3.6
+FROM python:3.7
 COPY .env /.env
-VOLUME ./scrapyd.conf /etc/scrapyd/
-EXPOSE 6800
+COPY ./requirements.txt /
+COPY ./scrapyd.conf /etc/scrapyd/
 RUN pip3 install -r requirements.txt
 CMD scrapyd
