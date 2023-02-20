@@ -13,18 +13,16 @@ $ cd Airflow-Learning-English-tool
 ```
 $ docker build -t scrapyd:latest .
 ```
-3. use image to build container
+3. use image to build container with network for airflow
 ```
-$ docker run -d -p 6800:6800 -v ./scrapyd.conf:/etc/scrapyd/ scrapyd
+$ docker run -d -p 6800:6800 --name scrapy --network <airflow-scrapy> -v ./scrapyd.conf:/etc/scrapyd/ scrapyd
 ```
-4. use image to build container
-```
-$ docker run -d -it -p 6800:6800 -v %cd%\scrapyd.conf:/etc/scrapyd/ scrapyd
-```
+
 4. check server health
 ```
 $ curl http://localhost:6800/daemonstatus.json
 ```
+
 ### Reference
 * Scrapyd对接Docker([傳送門](https://python3webspider.cuiqingcai.com/15.3scrapyd-dui-jie-docker))
 * scarpyd offical api([傳送門](https://scrapyd.readthedocs.io/en/stable/api.html))
