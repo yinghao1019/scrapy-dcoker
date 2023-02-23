@@ -4,14 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6e4a3e5-54da-48ab-a3e5-ff8bd8dcf016" name="Changes" comment="feat:nginx test">
+    <list default="true" id="d6e4a3e5-54da-48ab-a3e5-ff8bd8dcf016" name="Changes" comment="Subject line (try to keep under 50 characters)&#10;&#10;Multi-line description of commit,&#10;feel free to be detailed.&#10;&#10;[Ticket: X]">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nginx/scrapy.conf" beforeDir="false" afterPath="$PROJECT_DIR$/nginx/scrapy.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrapyd.conf" beforeDir="false" afterPath="$PROJECT_DIR$/etc/scrapyd.conf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -44,6 +52,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\acer\Desktop\data_engineer\scrapyd-docker\etc" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
       <deployment type="dockerfile">
@@ -68,7 +81,8 @@
       <workItem from="1676213301168" duration="2014000" />
       <workItem from="1676673195993" duration="3504000" />
       <workItem from="1676816434282" duration="38000" />
-      <workItem from="1676903031642" duration="887000" />
+      <workItem from="1676903031642" duration="6478000" />
+      <workItem from="1677186821175" duration="95000" />
     </task>
     <task id="LOCAL-00001" summary="feat:dockerfile&#10;&#10;調整項目:&#10;調整Dockerfile的 dependencies">
       <created>1676183838990</created>
@@ -84,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676903507889</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="feat:test">
+      <created>1676904003073</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1676904003073</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -94,6 +115,7 @@
     <MESSAGE value="chore:build scrapyd dockerfile&#10;&#10;調整項目:&#10;新增scrapyd Dockerfile" />
     <MESSAGE value="feat:dockerfile&#10;&#10;調整項目:&#10;調整Dockerfile的 dependencies" />
     <MESSAGE value="feat:nginx test" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat:nginx test" />
+    <MESSAGE value="feat:test" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat:test" />
   </component>
 </project>

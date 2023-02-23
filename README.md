@@ -7,20 +7,21 @@ in project root directory
 ### Quick start
 1. Clone the repo and get into the folder
 ```
-$ cd Airflow-Learning-English-tool
+$ cd scrapyd-docker
 ```
-2. Use docker build to create image
+2. set basic auth (username,password) in etc folder
+
+3. Use docker build to create image
 ```
 $ docker build -t scrapyd:latest .
 ```
-3. use image to build container with network for airflow
+4. use image to build container with network for airflow
 ```
-$ docker run -d -p 6800:6800 --name scrapy --network <airflow-scrapy> -v ./scrapyd.conf:/etc/scrapyd/ scrapyd
+$ docker run -d -p 6800:6800 --name scrapyd --network=<your network name> -v ./etc:etc/scrapyd/ --restart unless-stopped  scrapyd
 ```
-
-4. check server health
+5. check server health
 ```
-$ curl http://localhost:6800/daemonstatus.json
+$ curl -u -u yourusername:yourpassword http://localhost:6800/daemonstatus.json
 ```
 
 ### Reference
