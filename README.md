@@ -17,7 +17,7 @@ $ docker build -t scrapyd:latest .
 ```
 4. use image to build container with network for airflow
 ```
-$ docker run -d -p 6800:6800 --name scrapyd --network=<your network name> -v ./etc:etc/scrapyd/ --restart unless-stopped  scrapyd
+$ docker run -d -p 6800:6800 --name scrapyd --network=<your network name> -v ./etc:etc/scrapyd/ -v /var/log/scrapyd:/var/log/scrapyd -u $(id -u):$(id -g) --restart unless-stopped  scrapyd
 ```
 5. check server health
 ```

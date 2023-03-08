@@ -8,8 +8,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nginx/scrapy.conf" beforeDir="false" afterPath="$PROJECT_DIR$/nginx/scrapy.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapyd.conf" beforeDir="false" afterPath="$PROJECT_DIR$/etc/scrapyd.conf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +22,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="feature/nginx-test" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -83,6 +81,13 @@
       <workItem from="1676816434282" duration="38000" />
       <workItem from="1676903031642" duration="6478000" />
       <workItem from="1677186821175" duration="95000" />
+      <workItem from="1677190333920" duration="143000" />
+      <workItem from="1677310588177" duration="13000" />
+      <workItem from="1677310746470" duration="140000" />
+      <workItem from="1678145107736" duration="1172000" />
+      <workItem from="1678146628163" duration="15000" />
+      <workItem from="1678146725262" duration="1507000" />
+      <workItem from="1678314156399" duration="465000" />
     </task>
     <task id="LOCAL-00001" summary="feat:dockerfile&#10;&#10;調整項目:&#10;調整Dockerfile的 dependencies">
       <created>1676183838990</created>
