@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d6e4a3e5-54da-48ab-a3e5-ff8bd8dcf016" name="Changes" comment="Subject line (try to keep under 50 characters)&#10;&#10;Multi-line description of commit,&#10;feel free to be detailed.&#10;&#10;[Ticket: X]">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/etc/scrapyd.conf" beforeDir="false" afterPath="$PROJECT_DIR$/etc/scrapyd.conf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,21 +34,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/acer/Desktop/data_engineer/scrapyd-docker&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.project&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/acer/Desktop/data_engineer/scrapyd-docker",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "configurable.group.project",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\acer\Desktop\data_engineer\scrapyd-docker\etc" />
@@ -87,7 +86,9 @@
       <workItem from="1678145107736" duration="1172000" />
       <workItem from="1678146628163" duration="15000" />
       <workItem from="1678146725262" duration="1507000" />
-      <workItem from="1678314156399" duration="465000" />
+      <workItem from="1678314156399" duration="1734000" />
+      <workItem from="1678493066267" duration="327000" />
+      <workItem from="1678527619581" duration="23000" />
     </task>
     <task id="LOCAL-00001" summary="feat:dockerfile&#10;&#10;調整項目:&#10;調整Dockerfile的 dependencies">
       <created>1676183838990</created>
@@ -110,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676904003073</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat:Dockerfile&#10;&#10;調整項目:&#10;調整dockerfile內容">
+      <created>1678314671836</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678314671836</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,6 +129,7 @@
     <MESSAGE value="feat:dockerfile&#10;&#10;調整項目:&#10;調整Dockerfile的 dependencies" />
     <MESSAGE value="feat:nginx test" />
     <MESSAGE value="feat:test" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat:test" />
+    <MESSAGE value="feat:Dockerfile&#10;&#10;調整項目:&#10;調整dockerfile內容" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat:Dockerfile&#10;&#10;調整項目:&#10;調整dockerfile內容" />
   </component>
 </project>
